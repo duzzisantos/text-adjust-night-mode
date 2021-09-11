@@ -1,0 +1,123 @@
+body{
+    background-color: aliceblue;
+}
+#top {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(15, 76, 87);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin-left: -8px;
+}
+
+#top #logo {
+    height: 100px;
+    width: 250px;
+    color: rgb(213, 238, 253);
+    font-size: 20px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 180px;
+}
+
+#textAdjust {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+#box {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-left: -10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(43, 41, 41);
+    background-color: rgb(145, 212, 203);
+    margin-top: 0px;
+    border: none;
+    margin-left: 5px;
+}
+
+#textBtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: rgb(43, 41, 41);
+    background-color: rgb(145, 212, 203);
+    margin-top: 27.5px;
+    border: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#textBtn1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: rgb(43, 41, 41);
+    background-color: rgb(145, 212, 203);
+    margin-top: 27.5px;
+    border: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#textBtn2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: rgb(43, 41, 41);
+    background-color: rgb(145, 212, 203);
+    margin-top: 27.5px;
+    border: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+article {
+    padding: 20px 20px;
+    width: 1000px;
+    margin-left: 165px;
+    margin-top: 0;
+    font-size: 17px;
+}
+
+article:nth-of-type(odd) {
+    padding-top: 120px;
+}
+
+.grid {
+    height: 400px;
+    width: 99%;
+}
+
+#myGrid{
+    height: 250px;
+    width: 240px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-top: 40px;
+    background-image: url('bookshelf/book16.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#myGrid:nth-child(1){
+    margin-left: 60px;
+}
